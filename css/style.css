@@ -45,3 +45,15 @@ body {
     font-size: 1.2rem;
     margin-top: 1rem;
 }
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    padding: 4rem 1rem;
+    overflow: hidden;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
