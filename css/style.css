@@ -56,4 +56,10 @@ body {
 .grid-2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.center {
+    text-align: center;
+    margin: auto;
 }
