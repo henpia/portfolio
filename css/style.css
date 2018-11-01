@@ -73,3 +73,11 @@ body {
     background: #f4f4f4;
     color: #333;
 }
+
+footer {
+    padding: 2.2rem;
+}
+
+footer p {
+    margin: 0;
+}
