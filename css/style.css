@@ -45,3 +45,39 @@ body {
     font-size: 1.2rem;
     margin-top: 1rem;
 }
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    padding: 4rem 1rem;
+    overflow: hidden;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.center {
+    text-align: center;
+    margin: auto;
+}
+
+.bg-dark {
+    background: #333;
+    color: #f4f4f4;
+}
+
+.bg-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+footer {
+    padding: 2.2rem;
+}
+
+footer p {
+    margin: 0;
+}
