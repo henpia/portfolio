@@ -87,3 +87,7 @@ footer {
 footer p {
     margin: 0;
 }
+
+#om:hover, #kontakt:hover, #projekter:hover {
+    font-size: 1.2rem;
+}
