@@ -80,6 +80,11 @@ section {
     color: #333;
 }
 
+#om {
+    color: #333;
+    text-decoration: none;
+}
+
 #om:hover, #kontakt:hover, #projekter:hover {
     font-size: 1.4rem;
     transition-duration: 0.4s;
