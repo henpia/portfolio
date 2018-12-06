@@ -80,8 +80,13 @@ section {
     color: #333;
 }
 
-#om {
+#om, #kontakt {
     color: #333;
+    text-decoration: none;
+}
+
+#projekter {
+    color: #f4f4f4;
     text-decoration: none;
 }
 
