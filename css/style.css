@@ -186,3 +186,7 @@ footer a {
     grid-template-columns: 1fr 2fr;
 }
 
+.projpage-content .card {
+    width: 70%;
+    border: 1px solid #1c1c1c;
+}
