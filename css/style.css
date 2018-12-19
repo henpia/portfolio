@@ -129,6 +129,14 @@ footer a {
     grid-template-columns: 1fr 3fr;
 }
 
+.about-content h2, .about-content h3 {
+    color: #CACACA;
+}
+
+.about-content p, .about-content li {
+    color: #606060
+}
+
 .left-col {
     background: #333;
 }
