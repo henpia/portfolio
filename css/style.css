@@ -1,7 +1,6 @@
 body {
     background: rgba(0, 0, 0, 0.9);
     color: #fff;
-    /* font-family: 'Lato', sans-serif; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
 }
@@ -86,27 +85,31 @@ section {
 }
 
 #om, #kontakt {
-    color: #333;
+    color: #ffffff;
     text-decoration: none;
 }
 
 #projekter {
-    color: #1c1c1c;
+    color: #ffffff;
     text-decoration: none;
-    padding: 4rem 4rem;
 }
 
-#om:hover, #kontakt:hover {
-    font-size: 1.4rem;
-    transition-duration: 0.3s;
+#projekter h2, #om h2, #kontakt h2 {
+    margin-bottom: 0.4rem;
 }
 
-#projekter:hover {
-    font-size: 1.5rem;
-    transition-duration: 0.3s;
+#projekter p, #om p, #kontakt p {
+    margin-top: 0;
+}
+
+#projekter:hover, #om:hover, #kontakt:hover {
+    color: #606060;
+    transition-duration: 0.4s;
 }
 
 .personlig {
+    font-size: 1.3rem;
+    font-weight: 600;
     margin-top: 0;
 }
 
