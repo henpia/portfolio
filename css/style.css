@@ -222,12 +222,16 @@ footer a {
     filter: blur(4px);
 }
 
-.proj_supermarked h1 {
+.proj_supermarked h1,
+.proj_henpia h1 {
     color: #CACACA;
     border-bottom: 1px solid #606060;
 }
 
-.proj_supermarked p, .proj_supermarked li {
+.proj_supermarked p, 
+.proj_supermarked li,
+.proj_henpia p,
+.proj_henpia li {
     color: #606060;
     font-size: 1.2rem;
 }
@@ -250,7 +254,8 @@ footer a {
     padding: 5px 10px;
 }
 
-.proj_supermarked img {
+.proj_supermarked img,
+.proj_henpia img {
     width: 100%;
     margin-top: 1.5rem;
 }
